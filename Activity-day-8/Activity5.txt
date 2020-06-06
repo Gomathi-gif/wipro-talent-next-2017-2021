@@ -1,0 +1,16 @@
+class Main{
+public static void main(String[] args){
+int a=0, b=0, sum, diff;
+for(a=0;a<10;a++)
+{
+for(b=0;b<10;b++)
+{
+if((a+b)==15 && (a-b)==3)
+{
+System.out.println("Value of a: "+a);
+System.out.println("Value of b: "+b);
+}
+}
+}
+}
+}
